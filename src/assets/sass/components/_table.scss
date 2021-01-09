@@ -1,0 +1,13 @@
+/**
+ * MeetingTable
+ *
+ */
+
+.meeting__table {
+    justify-content: center;
+    margin: auto;
+
+    &-label {
+        color: $pink-color;
+    }
+}

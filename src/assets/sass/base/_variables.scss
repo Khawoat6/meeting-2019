@@ -1,0 +1,93 @@
+/**
+ * Variables file
+ *
+ */
+
+/**
+ * Color & Background
+ *
+ */
+
+$primary-color: #121429 !default;
+$white-color: #FFFFFF;
+$black-color: #000000;
+$gray-color: #8892b0;
+$purple-color: #CCD6F6;
+$pink-color: #EA5771;
+$blue-color: #08EDBA;
+$yellow-color: #F5E40E;
+$background-color-dark: #121429;
+$background-color-light: #FFFFFF;
+$complimentary-color-dark: #393B43;
+$complimentary-color-light: #FEFFFF;
+
+/**
+ *  Font & Text
+ *
+ */
+
+// font-family
+$font-family-primary: ('Niramit', monospace);
+$font-family-secondary : ('Inconsolata', sans-serif);
+$font-family-third : ('Kanit', sans-serif);
+$font-family-fourth: ('Montserrat', sans-serif);
+$font-stack: ('Helvetica', 'Arial', sans-serif);
+
+// font-size
+$fz-primary: 32px;
+$fz-secondary: 28px;
+$fz-third: 24px;
+$fz-fourth: 20px;
+$fz-fifth: 14px;
+$fz-six: 12px;
+$fz-seven: 8px;
+
+// font weight
+$fw-primary: 700;
+$fw-secondary: 600;
+$fw-third: 500;
+$fw-fourth: 400;
+$fw-fifth: 300;
+$fw-six: 200;
+$fw-seven: 100;
+
+// line-height
+$lh-primary: 32px;
+$lh-secondary: 28px;
+$lh-third: 24px;
+$lh-fourth: 20px;
+$lh-fifth: 16px;
+$lh-six: 12px;
+$lh-seven: 8px;
+
+// letter-spacing
+$letter-spacing-primary: 1.2px;
+$letter-spacing-secondary: 5px;
+
+// text-transform
+$tt-upper: uppercase;
+$tt-lower: lowercase;
+
+
+/**
+ * Box
+ *
+ */
+
+// width
+$w-100vw: 100vw;
+$w-100: 100%;
+$w-90: 90%;
+$w-80: 80%;
+$w-70: 70%;
+$w-60: 60%;
+$w-50: 50%;
+
+// height
+$h-100vh: 100vh;
+$h-100: 100%;
+$h-90: 90%;
+$h-80: 80%;
+$h-70: 70%;
+$h-60: 60%;
+$h-50: 50%;

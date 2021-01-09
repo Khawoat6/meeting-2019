@@ -1,0 +1,92 @@
+/**
+ * Theme
+ *
+ */
+
+@import '../base/helpers';
+
+::selection {
+    background: $yellow-color;
+}
+
+body {
+    background-color: $background-color-light;
+    color: $primary-color;
+
+    .skills-category-item {
+        color: $gray-color;
+    }
+}
+
+body.dark-mode {
+    background-color: $background-color-dark;
+    color: $purple-color;
+
+    .meeting__head {
+        &-title {
+            h1 {
+                color: $white-color;
+                &::selection {
+                    background: $blue-color;
+                    color: $background-color-dark;
+                }
+            }
+        }
+        p {
+            &::selection {
+                background: $blue-color;
+                color: $background-color-dark;
+            }
+        }
+    }
+
+    .meeting__table {
+        .meeting__table-label {
+            color: $blue-color;
+            &::selection {
+                background: $blue-color;
+                color: $background-color-dark;
+            }
+
+            .meeting__table-value {
+                color: $purple-color;
+                
+                span {
+                    &::selection {
+                        background: $blue-color;
+                        color: $background-color-dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            .meeting__detail {
+                span {
+                    &::selection {
+                        background: $blue-color;
+                        color: $background-color-dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .copy-right {
+        span {
+            a {
+                color: $blue-color;
+                &::selection {
+                    background: $blue-color;
+                    color: $background-color-dark;
+                }
+            }
+            &::selection {
+                background: $blue-color;
+                color: $background-color-dark;
+            }
+        }
+    }
+}

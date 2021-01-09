@@ -1,0 +1,21 @@
+/**
+ * Components Index file
+ *
+ */
+
+@import './darkmode-toggle';
+@import './details';
+@import './head';
+@import './table';
+@import './theme';
+
+.App {
+  width: $w-100vw;
+  height: $h-100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: $font-family-primary;
+  font-size: $fz-six;
+}

@@ -1,0 +1,32 @@
+/**
+ * MeetingHeader
+ *
+ */
+
+.meeting__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    text-align: center;
+
+    &-title {
+        padding:  1rem;
+        h1 {
+            font-size: $fz-fifth;
+            line-height: $lh-fourth;
+            letter-spacing: $letter-spacing-primary;
+        }
+    }
+    
+    p {
+        max-width: 1024px;
+        margin: 0.25rem auto;
+        line-height: $lh-fourth;
+        letter-spacing: $letter-spacing-primary;
+        a {
+            color: $pink-color;
+        }
+    }
+}
