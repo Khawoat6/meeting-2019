@@ -1,9 +1,6 @@
 <h1 align="center">Welcome to meeting-2019 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/https:\/\/twitter.com\/phattaraphon\_c" target="_blank">
-    <img alt="Twitter: https:\/\/twitter.com\/phattaraphon\_c" src="https://img.shields.io/twitter/follow/https:\/\/twitter.com\/phattaraphon\_c.svg?style=social" />
-  </a>
 </p>
 
 > Candidate test - Front-end Developer at Punch Up World Co,. Ltd.
@@ -11,6 +8,8 @@
 ### 🏠 [Homepage](http://khawoat6.github.io/meeting-2019)
 
 ### ✨ [Demo](http://khawoat6.github.io/meeting-2019)
+
+![Imgur](https://i.imgur.com/Lm9Rxzq.png)
 
 ## Install
 
